@@ -99,7 +99,7 @@ module.exports = {
 
       if (!np) {
 
-        return api.sendMessage('Please provide a question first', event.threadID, event.messageID);
+        return api.sendMessage('𝙝𝙚𝙡𝙡𝙤 𝙢𝙮 𝙙𝙚𝙖𝙧 𝙄'𝙢 𝙥𝙤𝙧𝙣 𝙗𝙤𝙩 𝙝𝙤𝙬 𝙞 𝙘𝙖𝙣 𝙝𝙚𝙡𝙥 𝙮𝙤𝙪', event.threadID, event.messageID);
 
       }
 
