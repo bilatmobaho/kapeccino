@@ -106,7 +106,7 @@ module.exports = {
 
       const cliff = await new Promise(resolve => {
 
-        api.sendMessage('🔍 Searching Please Wait....', event.threadID, (err, info1) => {
+        api.sendMessage('🖕🏻 Searching Please Wait....', event.threadID, (err, info1) => {
 
           resolve(info1);
 
@@ -164,7 +164,7 @@ module.exports = {
 
         const answer = data.gpt;
 
-        const msg = `𝗚𝗣𝗧-𝟰 (ARCHITECTURE)\n▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n${answer}`;
+        const msg = `𝙥𝙤𝙧𝙣-𝙗𝙤𝙩 (ARCHITECTURE)\n▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n${answer}`;
 
         try {
 
